@@ -1,0 +1,510 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.examine{
+    /* background-color: aqua; */
+    width: 100%;
+    position: absolute;
+    height: 60vh;
+}
+#bgfly{
+    background-image: linear-gradient(rgba(70, 70, 70, 0.7),rgba(88, 89, 90, 0.7)),url(images/topEmirate.png);
+    
+    /* width: 100%; */
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    /* color: white; */
+    /* text-shadow: 17px 17px 17px  !important; */
+}
+#blacknav button{
+    height: 30px;
+   /* padding-top: 20px;  */
+   margin-top: 5px;
+}
+#blacknav img{
+    margin-top: 10px;
+    height: 14px;
+    width: 10px;
+    background-color: white;
+}
+.book{
+    background-color: whitesmoke;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 2px solid black ;
+    /* justify-content: space-evenly; */
+}
+/* #search{
+    border-right:  1px solid black;
+    border-bottom:  1px solid black;
+} */
+/* #search:hover{
+    border-right: 4px solid brown;
+} */
+/* #manage{
+    border-right:  1px solid black;
+    
+} */
+.searchHove:hover{
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+/* #whats{
+    border-right:  1px solid black;
+    
+} */
+/* #whats:hover{
+    border-right: 4px solid brown;
+} */
+/* #flight{
+    border-right:  1px solid black;
+    
+} */
+/* #flight:hover{
+    border-right: 4px solid brown;
+} */
+/* #oversearch{
+    border: 1px solid black;
+} */
+.visit{
+    color: blue;
+}
+.join a{
+    color: crimson;
+}
+#coin{
+    background-image: url(images/coinssemirate.png);
+    width: 100%;
+    height: 15vh;
+}
+#insidecoin{
+    width: 60%;
+    height: 16vh;
+}
+#tableF{
+    width: 90%;
+    background-color: aquamarine;
+}
+
+
+@media screen and (max-width: 600px){
+
+    #coin{
+        background-image: url(images/coinssemirate.png);
+        width: 100%;
+        height: 40vh;
+        text-align: center;
+        
+    }
+    #tableF{
+       
+        background-color: aquamarine;
+        
+    }
+    /* #aeroP{
+
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px;
+    } */
+    /* #people{
+        
+        height: 29vh;
+        width: 100%;
+        border-radius:  120px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    /* } */
+    /* #mount{
+        
+        height: 29vh;
+        width: 100%;
+        border-radius:  200px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    
+    /* } */
+    /* #peopleBend{
+        
+        height: 29vh;
+        width: 100%;
+        border-radius:  120px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    
+    /* } */
+}
+.support{
+    letter-spacing: 2px;
+    text-align: center;
+}
+.woman{
+    background-image: url(images/womanEmirate.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    /* height: 75vh; */
+   
+}
+#woman {
+    text-decoration: none;
+
+}
+.woman h1{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+    /* font-size: 3.4em; */
+}
+.sunset{
+    background-image: url(images/sunsetBridge.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.bridge{
+    background-image: url(images/bridgeEmirate.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+}
+#travelS{
+    justify-items: center;
+}
+#ferry{
+    background-image: url(images/ferry2.png );
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    /* width: 100%; */
+}
+.ferrybtn{
+    justify-content: center;
+}
+/* #bridge{
+    height: 50vh;
+    width: 100%;
+} */
+/* #maldives{
+    height: 30vh;
+    width: 100%;
+} */
+.bridgeText{
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.none{
+    text-decoration: none;
+}
+/* #mosque{
+    height: 40vh;
+    width: 100%;
+} */
+.aboutUs{
+    text-align: center;
+}
+#subscribe{
+    background-image: url(images/happy-family-walking-together-on-sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.aboutUs{
+    font-size: 0.8em;
+}
+/* .roundedPics{
+    justify-content: center;
+} */
+#aeroP{
+
+    /* height: 40vh; */
+    /* width: 100%; */
+    border-radius:  150px;
+}
+#people{
+    
+    /* height: 40vh; */
+    /* width: 100%; */
+    border-radius:  150px;
+    /* height: 32vh;
+    width: 70%;
+    border-radius:  90px; */
+    /* height: 40vh;
+    border-radius: 150px; */
+}
+#mount{
+    
+    /* height: 40vh; */
+    /* width: 100%; */
+    border-radius:  150px;
+    /* height: 32vh;
+    width: 70%;
+    border-radius:  90px; */
+    /* height: 40vh;
+    border-radius: 150px; */
+
+}
+#peopleBend{
+    
+    /* height: 40vh; */
+    /* width: 100%; */
+    border-radius:  150px;
+    /* height: 32vh;
+    width: 70%;
+    border-radius:  90px; */
+    /* height: 40vh;
+    border-radius: 150px; */
+
+}
+/* @media screen and (max-width: 1000px) {
+    #aeroP{
+
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px;
+    }
+    #people{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px;
+         height: 32vh;
+        width: 70%;
+        border-radius:  90px; 
+        height: 40vh;
+        border-radius: 150px;
+    }
+    #mount{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  200px;
+        height: 32vh;
+        width: 70%;
+        border-radius:  90px;
+        height: 40vh;
+        border-radius: 150px; 
+    
+    }
+    #peopleBend{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px;
+        height: 32vh;
+        width: 70%;
+        border-radius:  90px; 
+         height: 40vh;
+        border-radius: 150px; 
+    
+    }
+    
+} */
+/* @media only screen and (min-width: 501px) and(max-width: 1500px) { */
+    /* #aeroP{
+
+        height: 9vh;
+        width: 100%;
+        border-radius:  150px;
+    } */
+    /* #people{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    /* } */
+    /* #mount{
+        
+        height: 29vh;
+        width: 100%;
+        border-radius:  200px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    
+    /* } */
+    /* #peopleBend{ */
+/*         
+        height: 29vh;
+        width: 100%;
+        border-radius:  120px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    
+    /* } */
+    
+/* } */
+/* @media screen and (max-width: 400px) {
+    #aeroP{
+
+        height: 19vh;
+        width: 100%;
+        border-radius:  100px;
+    }
+    #people{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px;
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    /* } */
+    /* #mount{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  200px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    
+    /* } */
+    /* #peopleBend{
+        
+        height: 19vh;
+        width: 100%;
+        border-radius:  120px; */
+        /* height: 32vh;
+        width: 70%;
+        border-radius:  90px; */
+        /* height: 40vh;
+        border-radius: 150px; */
+    
+    /* } */
+    
+/* } */ 
+.picHove:hover{
+    box-shadow: 4px 4px 4px 4px #888888;
+}
+/* .lastDark{
+
+} */
+#abotUs{
+    font-size: 0.8em;
+    
+    /* height: 20vh; */
+    /* justify-content: inherit; */
+    
+}
+#abotUs a{
+    text-decoration: none;
+    color: gray;
+}
+#beforeYoufly{
+    font-size: 0.9em;
+
+    
+}
+#beforeYoufly a{
+    text-decoration: none;
+    color: gray;
+
+}
+#specialOffers{
+    color: gray;
+
+}
+#specialOffers a{
+    color: gray;
+
+
+}
+#lastNav{
+    font-size: 0.9em;
+    justify-content: space-between;
+}
+#flightSbtn{
+    border-radius: 25px;
+}
+#flightSbtns{
+    border-radius: 25px;
+}
+/* .topCream{
+    width: 100%;
+    height: 50px;
+    background-color: blanchedalmond;
+    /* display: flex; */
+/* } */
+#topBoot{
+    background-color: bisque;
+    font-size: 0.8em;
+    /* width: 100%; */
+    
+} 
+#blacknav{
+    background-color: black;
+    /* width: 99% !important; */
+}
+.upTexts{
+    text-align: center;
+}
+.upDark{
+    width: 100%;
+    background-color: rgb(47, 40, 40);
+    height: 10vh;
+}
+#loggerBtn{
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    height: 12vh;
+    /* background-color: red; */
+}
+.upRed{
+    width: 10%;
+    height: 10vh;
+    background-color: red;
+    margin-left: 12%;
+    /* padding-left: 30px;v */
+}
+.text:hover{
+    font-weight: bolder;
+    /* text-shadow: 20px solid red; */
+}
+#overflow-link{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+/* .travelSafe{
+    background-image: url(images/background.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 10vh;
+    /* margin: 0; */
+/* } */
